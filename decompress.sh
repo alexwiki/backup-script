@@ -15,7 +15,7 @@ case "$suffix" in
 ".lz4")
 
 lz4 -d $1
-
+;;
 ".zst")
 #
 #
@@ -33,15 +33,15 @@ lz4 -d $1
 
 zstd -D dictionary --decompress $1 #the dictionary filename SHOULD BE dictionary
 
-
+;;
 ".bzip2")
 
 bzip2 -d $1
-
+;;
 ".zip")
 
 unzip $1 #if the file exists already ,in this step we will be asked to select if we want to replace it or not.
-
+;;
 ".7z")
 
 7z e $1
