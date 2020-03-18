@@ -15,3 +15,4 @@ done
 
 echo "example: ./scriptfor7z.sh /home/user/zippedfilesIN /home/user/unzippedfilesOUT LE_PASSWORD"
 
+##### ./scriptfor7z.sh test test2 -pYOURPASS ####
