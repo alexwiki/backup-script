@@ -11,6 +11,7 @@
 #	example2 ./final.sh bzip2 user@192.168.1.5				#
 #										#
 #	example3 ./final.sh bzip2 /home/backuped_files				#
+#the example below is currently correct      #
 #	example4 ./final.sh bzip2 test.log file 				#
 #################################################################################
 #Some Colors would be nice too:
